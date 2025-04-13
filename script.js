@@ -10,7 +10,7 @@ async function sendMessage() {
 
     chatbox.innerHTML += `<div class="bot"><strong>Bot:</strong> Thinking...</div>`;
 
-    const apiKey = "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"; // 🔐 Replace this with your real OpenAI API key
+    const apiKey = "AIzaSyBTE_l30ZX7V1_hZD03sj63WxT1KA_2jtg"; // 🔐 Replace this with your real OpenAI API key
 
     try {
         const response = await fetch("https://api.openai.com/v1/completions", {
